@@ -5,3 +5,11 @@ const findOddNumbers = (arr) => arr.filter(num => num % 2 !== 0);
 
 console.log("Even Numbers:", findEvenNumbers(numbers));
 console.log("Odd Numbers:", findOddNumbers(numbers));
+const printPattern = (n) => {
+    for (let i = 1; i <= n; i++) {
+      console.log('* '.repeat(i));
+    }
+  };
+  
+  printPattern(5);
+  
